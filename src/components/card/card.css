@@ -1,0 +1,87 @@
+.card-container {
+  max-width: 350px;
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+  border-radius: 1rem;
+  color: hsl(227, 53%, 13%);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-container:hover {
+  /* Inner neon glow (bright blue) */
+  box-shadow: inset 0 0 3px 2px rgba(0, 255, 255, 0.7);
+  /* Outer neon glow (brighter blue with less spread) */
+  box-shadow: 0 0 20px 3px rgba(0, 255, 255, 0.2);
+}
+
+.project-detail {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-image {
+  padding: 0.8rem;
+  padding-bottom: 0;
+}
+
+.project-image img {
+  border-radius: 0.6rem;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-name {
+  font-size: 1.1rem;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.technology-used {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  /* margin-left: 9px; */
+}
+.technology-used p {
+  font-size: 0.7rem;
+  background-color: hsl(227, 53%, 13%);
+  color: hsl(0, 0%, 94%);
+  border-radius: 500px;
+  padding: 0.1rem 0.5rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.project-buttons {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-buttons button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.project-buttons button a {
+  text-decoration: none;
+  background-color: hsl(258, 86%, 34%);
+  /* background-image: linear-gradient(45deg, #cc208e 0%, #6713d2 100%); */
+  color: hsl(0, 0%, 94%);
+  padding: 0.5rem 1.5rem;
+  border-radius: 500px;
+  font-weight: 500;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms ease-in-out;
+  position: relative;
+}
+
+.project-buttons button a:hover {
+  background-color: hsl(258, 86%, 44%);
+  text-decoration: underline;
+}
