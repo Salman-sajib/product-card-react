@@ -21,13 +21,15 @@ function Card() {
             <p>JAVASCRIPT</p>
             <p>GSAP</p>
           </div>
-          <div className='project-buttons'>
-            <button>
-              <a href='#'>Visit</a>
-            </button>
-            <button>
-              <a href='#'>Code</a>
-            </button>
+          <div className='learn-more'>
+            <ul>
+              <li>
+                <a href=''>Visit</a>
+              </li>
+              <li>
+                <a href=''>Code</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
