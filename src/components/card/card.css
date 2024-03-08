@@ -46,6 +46,10 @@
   font-weight: 600;
 }
 
+.learn-more {
+  margin-top: 0.5rem;
+}
+
 .learn-more ul {
   display: flex;
   align-items: center;
