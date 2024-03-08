@@ -72,6 +72,14 @@
   font-size: 1rem;
   font-weight: 500;
   position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.learn-more ul li a svg {
+  fill: #93a3ff;
 }
 
 .learn-more ul li a::after {
