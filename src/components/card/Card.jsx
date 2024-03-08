@@ -1,10 +1,11 @@
 import './card.css';
+import myImage from '../../assets/project1.png';
 
 function Card() {
   return (
     <div className='card-container'>
       <div className='project-image'>
-        <img src='../../../src/assets/project1.png' alt='project1 image' />
+        <img src={myImage} alt='project image' />
       </div>
       <div className='project-detail'>
         <h3 className='project-name'>GSAP Layout Animation</h3>
