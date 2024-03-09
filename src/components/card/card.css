@@ -14,7 +14,7 @@
   overflow: hidden;
   z-index: 1;
   position: relative;
-  box-shadow: 0 0 5px rgba(197, 113, 245, 0.1), 0 0 5px rgba(250, 113, 204, 0.2);
+  box-shadow: 0 0 5px rgba(197, 113, 245, 0.2), 0 0 5px rgba(250, 113, 204, 0.1);
 }
 
 /* .card:hover .project-image img {
