@@ -3,7 +3,7 @@ import myImage from '../../assets/project1.png';
 
 function Card() {
   return (
-    <div className='card-container'>
+    <div className='card1-container'>
       <div className='card'>
         <div className='project-image'>
           <img src={myImage} alt='project image' />

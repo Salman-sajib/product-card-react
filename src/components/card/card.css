@@ -6,8 +6,16 @@
   z-index: 1;
 } */
 
+.card1-container {
+  background-color: #0f1630;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .card {
-  max-width: 320px;
+  max-width: 350px;
   background-color: #03071e;
   border-radius: 0.5rem;
   transition: transform 450ms ease-in-out;
