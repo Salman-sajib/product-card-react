@@ -2,23 +2,25 @@
   border: 3px solid;
   border-image-source: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
   border-image-slice: 1;
+  padding: 5px;
   z-index: 1;
 }
 
 .card {
-  max-width: 350px;
+  max-width: 320px;
   background-color: #03071e;
   /* border-radius: 0.5rem; */
 
   transition: transform 450ms ease-in-out;
-  overflow: hidden;
-  z-index: 2;
+  /* overflow: hidden; */
+  z-index: 1;
+  position: relative;
 }
 
-.card:hover .project-image img {
+/* .card:hover .project-image img {
   transform: scale(1.05);
   transition: transform 200ms ease-in-out;
-}
+} */
 
 .project-detail {
   padding: 1rem;
@@ -46,7 +48,7 @@
 
 .project-description {
   color: hsl(0, 0%, 79%);
-  font-size: 1rem;
+  font-size: 0.97rem;
   font-weight: 400;
   line-height: 1.4;
 }
